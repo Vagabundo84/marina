@@ -1,0 +1,14 @@
+ATOM 
+
+ctrl + ` = open terminal in atom
+
+
+
+JAVSCRIPT
+datum i vrijeme 
+
+<p id="vrijeme"> </p>
+<script>
+          let v = new Date(Date.now()).toLocaleString("sr").split(', ')[0];
+          document.getElementById("vrijeme").innerHTML =v;
+ </script>
